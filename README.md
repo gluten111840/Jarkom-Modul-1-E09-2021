@@ -20,7 +20,7 @@ Dengan menggunakan Wireshark filter expression: ```http.authbasic``` didapatkan 
 Dapat dilihat pada detail, terdapat informasi **Authorization : Basic**
 
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
-Dari hasil temuan paket dari nomor 2, pada informasi *Authorization : Basic* terdapat *Credentials : kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN* yang merupakan username dan password \
+Dari hasil temuan paket dari nomor 2, pada informasi *Authorization : Basic* terdapat *Credentials : kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN* yang merupakan username : ```kuncimenujulautan``` dan password : ```tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN``` \
 ![3_1](./Picture/No3_1.png) \
 Lalu menjawab yang ada dalam basic.ichimarumaru.tech yang merupakan soal untuk menyebutkan urutan konfigurasi pengkabelan T568A
 ```
