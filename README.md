@@ -95,7 +95,7 @@ Dengan menggunakan capture filter pada Wireshark dengan expression : ```src port
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 Connect ke server FTP kemudian, ambil paket dengan menggunakan capture filter pada Wireshark dengan expression ```port 21``` dan source ``` Adapter for loopback traffic capture``` sehingga didapatkan paket sebagai berikut \
 ![12 ss port 21](https://user-images.githubusercontent.com/81345045/134766138-d661db13-7cfa-44b8-bcf0-2ec10aa25b9f.jpg) \
-Kendala : paket tidak ada yang terbaca
+Kendala : paket tidak ada yang terbaca \
 Solusi : menggunakan FTP dan source ``` Adapter for loopback traffic capture```
 
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
@@ -110,4 +110,4 @@ Dengan menggunakan capture filter pada Wireshark dengan expression : ```dst host
 Dapatkan IP melalui command prompt dengan expression: ```ipconfig```\
 ![15 ss ipconfig](https://user-images.githubusercontent.com/81345045/134766148-ab21b480-e73a-4b3a-9ff2-dbafcce671b6.JPG) \
 Dengan menggunakan capture filter pada Wireshark dengan expression : ```src host [IP yang telah didapat]``` sehingga didapatkan paket sebagai berikut \
-![15 ss capture ip](https://user-images.githubusercontent.com/81345045/134766155-1d66ab3d-638e-41fe-a146-c7109befbda6.JPG) \	
+![15 ss capture ip](https://user-images.githubusercontent.com/81345045/134766155-1d66ab3d-638e-41fe-a146-c7109befbda6.JPG)	
