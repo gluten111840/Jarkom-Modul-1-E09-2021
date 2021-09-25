@@ -89,7 +89,25 @@ Didapatkan isi “d1b1langbukanapaapajugagapercaya” yang merupakan password da
 ![image](https://user-images.githubusercontent.com/7587945/134763164-1405495c-14ab-4fd4-80bd-66b303d1b7fe.png)
 
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+Dengan menggunakan capture filter pada Wireshark dengan expression : ```src port 80``` sehingga didapatkan paket sebagai berikut \
+![11 ss port 80](https://user-images.githubusercontent.com/81345045/134766135-343d03b5-486f-4b24-afa6-d0e3c35404e0.jpg) \
+
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Connect ke server FTP kemudian, ambil paket dengan menggunakan capture filter pada Wireshark dengan expression ```port 21``` dan source ``` Adapter for loopback traffic capture``` sehingga didapatkan paket sebagai berikut \
+![12 ss port 21](https://user-images.githubusercontent.com/81345045/134766138-d661db13-7cfa-44b8-bcf0-2ec10aa25b9f.jpg) \
+Kendala : paket tidak ada yang terbaca
+Solusi : menggunakan FTP dan source ``` Adapter for loopback traffic capture```
+
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+Dengan menggunakan capture filter pada Wireshark dengan expression : ```dst port 443``` sehingga didapatkan paket sebagai berikut \
+![13 ss port 443](https://user-images.githubusercontent.com/81345045/134766142-a1ffa2ff-91bd-4515-8040-560cf1fee13a.jpg) \
+
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+Dengan menggunakan capture filter pada Wireshark dengan expression : ```dst host kemenag.go.id``` sehingga didapatkan paket sebagai berikut \
+![14 ss kemenag](https://user-images.githubusercontent.com/81345045/134766144-4a9a9576-ced8-4e50-b5b3-9d1370157af3.jpg) \
+
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Dapatkan IP melalui command prompt dengan expression: ```ipconfig```\
+![15 ss ipconfig](https://user-images.githubusercontent.com/81345045/134766148-ab21b480-e73a-4b3a-9ff2-dbafcce671b6.JPG) \
+Dengan menggunakan capture filter pada Wireshark dengan expression : ```src host [IP yang telah didapat]``` sehingga didapatkan paket sebagai berikut \
+![15 ss capture ip](https://user-images.githubusercontent.com/81345045/134766155-1d66ab3d-638e-41fe-a146-c7109befbda6.JPG) \	
